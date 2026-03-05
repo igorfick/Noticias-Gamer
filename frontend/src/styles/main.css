@@ -49,3 +49,8 @@ body {
     margin: 0;
     color: #cbd5e1;
 }
+.news-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}

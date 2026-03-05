@@ -3,9 +3,10 @@ import NewsCard from "./NewsCard"
 function NewsList({ noticias }) {
     return (
         <div className="news-grid">
-            {noticias.map((noticia, index) => (
+            {noticias.map((noticia) => (
                 <NewsCard
-                    key={index}
+                    key={noticia.id}
+                    id={noticia.id}
                     titulo={noticia.titulo}
                     descricao={noticia.descricao}
                     imagem={noticia.imagem}
